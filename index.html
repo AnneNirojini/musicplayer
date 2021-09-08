@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+    <script src="//connect.soundcloud.com/sdk.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <title>Sound Cloud</title>
+
+<style>
+    /* Make the image fully responsive 
+    .carousel-inner img {
+      width: 100%;
+      height: 90%;
+    } */
+     
+    .navbar {
+        margin-bottom: 30px;
+        height:100px;
+    }
+
+</style>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark sticky-top">
+            <a class="navbar-brand" href="index.html">Sound Cloud</a>
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="songs.html">Songs</a>
+              </li>
+            </ul>
+          </nav>
+    </header>
+    
+    <div id="demo" class="carousel slide" data-ride="carousel">
+
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+        
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img style="width: 100%; height: 900px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReEmUlMCmDmt8eNk8cw3QskxqhPCTc6EgEn2kyuSJSrMV6zl7VvOGd95wCTWOc6VVuS-M&usqp=CAU" alt="image" width="1100" height="500">
+          </div>
+          <div class="carousel-item">
+            <img style="width: 100%; height: 900px;" src="https://www.incimages.com/uploaded_files/image/1920x1080/getty_626660256_2000108620009280158_388846.jpg" alt="image" width="1100" height="500">
+          </div>
+        </div>
+        
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+      </div>   
+</body>
+</html>
